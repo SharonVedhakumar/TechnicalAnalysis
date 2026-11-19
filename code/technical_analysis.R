@@ -66,7 +66,7 @@ load_stock_data <- function(portfolio_file = "portfolio.txt",
 }
 
 # Run the function.
-stock_data <- load_stock_data()
+stock_data <- load_stock_data(portfolio_file = "data/portfolio.txt")
 
 # Show which stocks loaded successfully.
 print(names(stock_data))
